@@ -91,7 +91,7 @@ export default class KeyboardAccessoryView extends Component {
       <KeyboardTrackingView
         style={styles.trackingToolbarContainer}
         onLayout={this.onContainerComponentHeightChanged}
-        scrollBehavior={this.getIOSTrackingScrollBehavior()}
+        //scrollBehavior={this.getIOSTrackingScrollBehavior()}
         revealKeyboardInteractive={this.props.revealKeyboardInteractive}
         manageScrollView={this.props.manageScrollView}
         requiresSameParentToManageScrollView={this.props.requiresSameParentToManageScrollView}
