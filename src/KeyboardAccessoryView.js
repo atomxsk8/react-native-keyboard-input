@@ -111,13 +111,9 @@ export default class KeyboardAccessoryView extends Component {
 
 const styles = StyleSheet.create({
   trackingToolbarContainer: {
-    ...Platform.select({
-      ios: {
-        width: ScreenSize.width,
-        // position: 'absolute',
-        // bottom: 0,
-        // left: 0,
-      },
-    }),
+    width: ScreenSize.width,
+    position: 'absolute',
+    bottom: 0,
+    left: 0,
   },
 });
