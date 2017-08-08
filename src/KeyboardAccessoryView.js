@@ -114,9 +114,9 @@ const styles = StyleSheet.create({
     ...Platform.select({
       ios: {
         width: ScreenSize.width,
-        position: 'absolute',
-        bottom: 0,
-        left: 0,
+        // position: 'absolute',
+        // bottom: 0,
+        // left: 0,
       },
     }),
   },
